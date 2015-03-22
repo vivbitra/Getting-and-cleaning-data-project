@@ -1,3 +1,5 @@
+# Vivek Vardhan Bitra
+#--------------------------------------------------
 rm(list = ls())
 # 1 Merges the training and the test sets to create one data set.
 # setting directory of input files
@@ -6,9 +8,9 @@ setwd('E:\\Rprogramming\\UCI HAR Dataset');
 features = read.table('./features.txt',header=FALSE);
 activitylabels = read.table('./activity_labels.txt',header=FALSE);
 # reading data from the train files
-subjecttrain = read.table('./train/subject_train.txt',header=FALSE);
-xtrain = read.table('./train/x_train.txt',header=FALSE);
-ytrain = read.table('./train/y_train.txt',header=FALSE);
+subjecttrain = read.table('./train/subject_train.txt',header=FALSE); #details of subjects
+xtrain = read.table('./train/x_train.txt',header=FALSE); # imports x-train data
+ytrain = read.table('./train/y_train.txt',header=FALSE); # imports y-train data
 # reading data from the test files
 subjecttest = read.table('./test/subject_test.txt',header=FALSE); 
 xtest = read.table('./test/x_test.txt',header=FALSE);
