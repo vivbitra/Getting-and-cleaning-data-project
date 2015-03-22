@@ -8,14 +8,14 @@ Information about the variables, data and transformations used in the course pro
 
 After setting the source directory for the files, read into tables the data located in
 1. Import the data from test and train files
-features.txt - features
-activity_labels.txt -   activitylabels
-subject_train.txt  -   subjecttrain
-x_train.txt    -   xtrain
-y_train.txt   -   ytrain
-subject_test.txt   - subjecttest
-x_test.txt   -   xtest
-y_test.txt  -    ytest
+i.  features.txt - features
+ii.  activity_labels.txt -   activitylabels
+iii.  subject_train.txt  -   subjecttrain
+iv.  x_train.txt    -   xtrain
+v.   y_train.txt   -   ytrain
+vi.  subject_test.txt   - subjecttest
+vii  x_test.txt   -   xtest
+vii  y_test.txt  -    ytest
 Assign column names and merge to create one data set.
 
 Section 2. Extract only the measurements on the mean and standard deviation for each measurement.
